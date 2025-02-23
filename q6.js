@@ -14,10 +14,10 @@ const maxProfit = (prices) => {
     }
     if (prices[i] - min > profit) {
       profit = prices[i] - min;
-    
-  }
+    }
 
-  return profit;
+    return profit;
+  }
 };
 
 console.log(maxProfit([7, 1, 5, 3, 6, 4]));
